@@ -85,9 +85,9 @@ buttons = [
             text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🔥 Sᴏᴜʀᴄᴇ", url=f"https://github.com/DarkCybers/innexia"),
+        InlineKeyboardButton(text="🥀 Oᴡɴᴇʀ", url=f"https://t.me/pratheek06"),
         InlineKeyboardButton(
-            text="Vᴄ Pʟᴀʏᴇʀ 🎶", url=f"https://telegra.ph/Innexia-Vc-Player-08-19"
+            text="Vᴄ Pʟᴀʏᴇʀ 🎶", url=f"https://t.me/SHIZUKA_VC_SUPPORT"
         ),
     ],
     [
@@ -97,7 +97,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="💕 Sᴜᴍᴍᴏɴ Mᴇ 💕", url="http://t.me/Innexiabot?startgroup=true"),
+        InlineKeyboardButton(text="➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url="http://t.me/Innexiabot?startgroup=true"),
     ],
 ]
 
@@ -109,7 +109,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @SiderzDonate's 💕"""
+ @pratheek06💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -367,10 +367,10 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="t.me/SiderzChat"
+                            text="Cʜᴀɴɴᴇʟ 📣", url="t.me/aboutpratheek"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="t.me/SiderzBot/11"
+                            text="Gʀᴏᴜᴘ 👥", url="t.me/"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
@@ -471,12 +471,12 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Sᴀᴍᴍʏ", url="t.me/useIes"),
-                    InlineKeyboardButton(text="Bʟᴀᴢᴇ", url="t.me/piroXpower"),
+                    InlineKeyboardButton(text="Pʀᴀᴛʜᴇᴇᴋ", url="t.me/pratheek06"),
+                    InlineKeyboardButton(text="Nᴏɴᴇ", url="t.me/"),
                  ],
                  [
-                    InlineKeyboardButton(text="Iɴꜰɪɴɪᴛʏ", url="t.me/hell_king_infinity"),
-                    InlineKeyboardButton(text="Zᴀʟɪᴍ", url="https://t.me/Jalim_Munda"),
+                    InlineKeyboardButton(text="Nᴏɴᴇ", url="t.me/"),
+                    InlineKeyboardButton(text="Nᴏɴᴇ", url="https://t.me/"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -493,7 +493,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *Innexia*
-                 \nHere is the [🔥Source Code🔥](https://github.com/DarkCybers/innexiaBot) .""",
+                 \nHere is the [🥀 Oᴡɴᴇʀ](https://t.me/pratheek06) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
