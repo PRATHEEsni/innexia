@@ -470,11 +470,11 @@ def innexia_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Pʀᴀᴛʜᴇᴇᴋ", url="t.me/pratheek06"),
-                    InlineKeyboardButton(text="Nᴏɴᴇ", url="t.me/"),
+                    InlineKeyboardButton(text="Nᴏɴᴇ", url=""),
                  ],
                  [
-                    InlineKeyboardButton(text="Nᴏɴᴇ", url="t.me/"),
-                    InlineKeyboardButton(text="Nᴏɴᴇ", url="https://t.me/"),
+                    InlineKeyboardButton(text="Nᴏɴᴇ", url=""),
+                    InlineKeyboardButton(text="Nᴏɴᴇ", url=""),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
