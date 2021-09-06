@@ -72,11 +72,13 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/8b6f8f2bb4ff3912634c7.jpg"
+INNEXIA_IMG = "https://telegra.ph/file/c1169cca4e16d92d5ccdf.jpg"
 
 PM_START_TEXT = """
-`Heya` 🤗 `I am` **Eʟɪɴᴀ </> ガマ丸** `your group super bot`
-`I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
+`Heya` 💖 `I am` **Eʟɪɴᴀ </> ガマ丸** `Your Group Super Bot`
+`I Am Very Fast And  More Efficient  I Provide Awesome  Features Which A Owner Will Look For  Filter ,Warn System,Note Keeping System Flood!`
+**FOR HELP USE** /help
+Dᴇᴠᴏʟᴏᴘᴇʀ = @pratheek06 🥀
 """
 
 buttons = [
