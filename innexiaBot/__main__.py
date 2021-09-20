@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/c1169cca4e16d92d5ccdf.jpg"
 
 PM_START_TEXT = """
-`Heya` 💖 `I am` **Eʟɪɴᴀ </> ガマ丸** `Your Group Super Bot`
+[ ](https://telegra.ph/file/914610635d34c0d5a8ba1.jpg) `Heya` 💖 `I am` **Eʟɪɴᴀ </> ガマ丸** `Your Group Super Bot`
 `I Am Very Fast And  More Efficient  I Provide Awesome  Features Which A Owner Will Look For  Filter ,Warn System,Note Keeping System Flood!`
 **FOR HELP USE** /help
 Dᴇᴠᴏʟᴏᴘᴇʀ = @pratheek06 🥀
