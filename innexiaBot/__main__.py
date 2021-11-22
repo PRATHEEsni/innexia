@@ -83,23 +83,23 @@ Dᴇᴠᴏʟᴏᴘᴇʀ = @pratheek06 🥀
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(text="🥀 Oᴡɴᴇʀ", url=f"https://t.me/pratheek06"),
-        InlineKeyboardButton(
-            text="Vᴄ Pʟᴀʏᴇʀ 🎶", url=f"https://t.me/SHIZUKA_VC_SUPPORT"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="📜 Aʙᴏᴜᴛ", callback_data="innexia_"),
-        InlineKeyboardButton(
-            text="Bᴀꜱɪᴄ Hᴇʟᴘ 👮", callback_data="innexia_basichelp"
-        ),
-    ],
-    [
         InlineKeyboardButton(text="➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url="http://t.me/ElinaBaby_Bot?startgroup=true"),
+            
+    ],
+    [
+        InlineKeyboardButton(text="💥 Dᴇᴠ", url=f"https://t.me/pratheek06"),
+        InlineKeyboardButton(
+            text="Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ 👥", url=f"https://t.me/SHIZUKA_VC_SUPPORT"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="👨🏻‍💻 Aʙᴏᴜᴛ Eʟɪɴᴀ", callback_data="innexia_"),
+        InlineKeyboardButton(
+            text="Bᴀꜱɪᴄ Cᴏᴍᴍᴀɴᴅs 👨🏻‍🔧", callback_data="innexia_basichelp"
+        ),
+    ],
+    [
+        text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
     ],
 ]
 
@@ -110,8 +110,8 @@ HELP_STRINGS = """
 
 
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- @pratheek06💕"""
+DONATE_STRING = """You Can Donate Me If You Want To Here Is My Username..!
+ @PRATHEEK06💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -445,7 +445,7 @@ def innexia_about_callback(update, context):
         )
     elif query.data == "innexia_support":
         query.message.edit_text(
-            text="* Innexia support chats*"
+            text="* Elina support chats*"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
